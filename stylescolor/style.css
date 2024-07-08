@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.banner-container {
+  max-width: 884.4px;
+  min-height: 402px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-image: url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.banner-content {
+  /* max-width: 632px; */
+  height: 402px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content p {
+  font-size: 21.44px;
+  font-weight: 400;
+  line-height: 26.8px;
+  color: rgb(255, 255, 255);
+}
+.banner-content h1 {
+  font-size: 48.24px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 60.3px;
+  color: rgb(255, 255, 255);
+}
+.catagories-off-container {
+  max-width: 537.94px;
+  height: 540px;
+  margin: 80.4px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.catagories-off-container h1 {
+  color: rgb(255, 0, 0);
+  font-size: 58.96px;
+  font-weight: 700;
+  line-height: 71.69px;
+  font-family: Inter;
+}
+.catagories-off-container p {
+  color: rgb(255, 0, 0);
+  font-size: 16.08px;
+  font-weight: 500;
+  line-height: 19.43px;
+  font-family: Inter;
+}
+.catagories-off-container h4 {
+  color: rgb(7, 2, 17);
+  font-size: 32.16px;
+  font-weight: 700;
+  line-height: 38.86px;
+  font-family: Inter;
+}
