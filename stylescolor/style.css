@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather, inter", serif;
 }
 /*
 Hero Section Styles
@@ -196,4 +196,87 @@ Catagories off Section Styles
   font-weight: 700;
   line-height: 16.08px;
   cursor: pointer;
+}
+/*
+happy-new-year-offer-Styles
+*/
+.happy-new-year-offer-container {
+  max-width: 884.4px;
+  height: 310.21px;
+  margin: 80.4px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 46.9px;
+}
+.offer-description {
+  width: 30%;
+}
+.offer-description .new-year-sub-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 16.08px;
+  font-weight: 500;
+  line-height: 19.43px;
+  text-transform: capitalize;
+}
+.offer-description .new-year-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 32.16px;
+  font-weight: 900;
+  line-height: 40.2px;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 10.72px 0 14.74px 0;
+}
+.offer-description .new-year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 13.4px;
+  font-weight: 400;
+  line-height: 21.44px;
+  text-align: left;
+}
+.happy-new-year-description {
+  width: 30%;
+}
+.happy-new-year-offer-container .description-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.happy-new-year-offer-container .description-images .customer-img {
+  width: 244.4428px;
+}
+.happy-new-year-offer-container .description-images .radious-img {
+  position: absolute;
+  width: 310.21px;
+}
+.happy-new-year-description {
+  padding-left: 69px;
+  width: 30%;
+}
+.happy-new-year-description .year-title {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 32.16px;
+  font-weight: 700;
+  line-height: 38.86px;
+  text-align: left;
+  margin-top: 70px;
+}
+.happy-new-year-description .year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 13.4px;
+  font-weight: 400;
+  line-height: 21.44px;
+  margin: 10.72px 0 28.81px 0;
+  text-align: left;
+}
+.happy-new-year-description img {
+  width: 93.8px;
 }
