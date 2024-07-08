@@ -85,7 +85,6 @@ Catagories off Section Styles
 .midnight-party-container {
   max-width: 884.4px;
   height: 402px;
-  border: 2px solid red;
   margin: 80.4px auto;
   background-image: url(../images/Vectorrr.png);
   background-position: center;
@@ -128,6 +127,7 @@ Catagories off Section Styles
   font-weight: 700;
   line-height: 16.08px;
   margin-right: 235px;
+  cursor: pointer;
 }
 .midnight-right-side-content {
   width: 50%;
@@ -137,4 +137,63 @@ Catagories off Section Styles
 }
 .midnight-right-side-content img {
   width: 233.9372px;
+}
+/*Join Meeting  Styles*/
+.join-meeting-container {
+  max-width: 884.4px;
+  height: 402px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.meeting-details {
+  /* width: 367.83px; */
+  height: 182.24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+.meeting-description h5 {
+  font-family: Inter;
+  color: #070211;
+  font-size: 21.44px;
+  font-weight: 700;
+  line-height: 37.52px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.meeting-description h5 span {
+  font-family: Inter;
+  color: #ff0000;
+  font-weight: 600;
+}
+.meeting-btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.meeting-btn .join-now-btn {
+  background: #ff0000;
+  padding: 10px 16px;
+  border: transparent;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 13.4px;
+  font-weight: 700;
+  line-height: 16.08px;
+  cursor: pointer;
 }
