@@ -284,12 +284,12 @@ happy-new-year-offer-Styles
 Holidays Sale  Section
 */
 .holidays-sale-container {
-  max-width: 715.56px;
+  max-width: 884.4px;
   height: 660.66px;
   margin: 80.4px auto;
 }
 .holidays-child-top-container {
-  max-width: 715.56px;
+  max-width: 884.4px;
   height: 174.2px;
   display: flex;
   flex-direction: column;
@@ -320,7 +320,7 @@ Holidays Sale  Section
   font-weight: 500;
   line-height: 21.44px;
   text-align: center;
-  padding: 0 60px;
+  padding: 0 146px;
 }
 .holidays-sale-container .image-container {
   max-width: 100%;
@@ -333,6 +333,7 @@ Holidays Sale  Section
   flex-direction: row;
   align-items: center;
   position: relative;
+  padding: 0 30px;
 }
 .image-container .left-image {
   width: 70%;
@@ -342,14 +343,15 @@ Holidays Sale  Section
   top: 56.2856px;
 }
 .image-container .left-image img {
-  width: 90%;
+  width: 75%;
 }
 .image-container .right-image {
-  width: 138.5828px;
+  width: 201.5828px;
   height: 138.5828px;
   position: absolute;
-  right: 27.0077px;
-  top: 128.59px;
+  right: 0.0077px;
+  top: 84.59px;
+  margin-right: 97px;
 }
 .image-container .right-image img {
   width: 100%;
@@ -361,4 +363,51 @@ Holidays Sale  Section
   background: rgb(255, 0, 0);
   position: absolute;
   bottom: 0;
+}
+/*
+products container styles
+*/
+.products-container {
+  max-width: 884.4px;
+  height: 779.21px;
+  margin: 80.4px auto;
+}
+.products-heading-container .products-subtitle {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 16.08px;
+  font-weight: 600;
+  line-height: 19.43px;
+  text-align: left;
+}
+.products-heading-container .products-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 32.16px;
+  font-weight: 900;
+  line-height: 40.2px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 10.72px 0 14.74px 0;
+}
+.products-heading-container .products-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 13.4px;
+  font-weight: 400;
+  line-height: 21.44px;
+  text-align: left;
+  padding-right: 270px;
+}
+.products-container .products-image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 32.16px;
+}
+.products-container .products-image-container img {
+  width: 284.08px;
+  height: 301.5px;
 }
