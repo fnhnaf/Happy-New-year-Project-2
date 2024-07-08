@@ -4,10 +4,12 @@
   box-sizing: border-box;
   font-family: "Merriweather", serif;
 }
-
+/*
+Hero Section Styles
+*/
 .banner-container {
   max-width: 884.4px;
-  min-height: 402px;
+  height: 402px;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
   background-image: url(../images/Banner\ Image.png);
@@ -38,6 +40,9 @@
   line-height: 60.3px;
   color: rgb(255, 255, 255);
 }
+/*
+Catagories off Section Styles
+*/
 .catagories-off-container {
   max-width: 537.94px;
   height: 540px;
@@ -60,6 +65,7 @@
   font-weight: 500;
   line-height: 19.43px;
   font-family: Inter;
+  margin: 32.16px 0 10.72px 0;
 }
 .catagories-off-container h4 {
   color: rgb(7, 2, 17);
@@ -67,4 +73,68 @@
   font-weight: 700;
   line-height: 38.86px;
   font-family: Inter;
+}
+.catagories-off-container .catagories-image {
+  width: 537.943;
+  height: 335px;
+}
+.catagories-off-container .catagories-image img {
+  width: 100%;
+}
+/*Midnight Party Styles*/
+.midnight-party-container {
+  max-width: 884.4px;
+  height: 402px;
+  border: 2px solid red;
+  margin: 80.4px auto;
+  background-image: url(../images/Vectorrr.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.midnight-left-side-content {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.midnight-left-side-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 42.88px;
+  font-weight: 900;
+  line-height: 58.96px;
+  letter-spacing: 7.37%;
+}
+.midnight-left-side-content p {
+  font-size: 10.67px;
+  font-weight: 400;
+  line-height: 20.1px;
+  margin-left: 92.42px;
+  margin: 16.08px 0 32.16px 92.42px;
+}
+.midnight-left-side-content .jn-btn {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 13.4px;
+  font-weight: 700;
+  line-height: 16.08px;
+  margin-right: 235px;
+}
+.midnight-right-side-content {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.midnight-right-side-content img {
+  width: 233.9372px;
 }
