@@ -492,3 +492,89 @@ Newest Subscriber Styles
   border-radius: 0 25px 25px 0;
   font-family: Inter;
 }
+/*
+Footer Styles
+
+*/
+footer {
+  max-width: 100%;
+  height: 408.03px;
+  background: #070211;
+  margin: 0 auto;
+}
+.happy-new-year-footer {
+  width: 884.4px;
+  height: 409px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 0 auto;
+}
+.happy-new-year-footer .address {
+  width: 793.95px;
+  height: 53.6px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80.4px;
+}
+.address .left-size-location p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16.08px;
+  font-weight: 500;
+  line-height: 26.8px;
+}
+.happy-new-year-footer .right-size-location .icon {
+  display: flex;
+  align-items: center;
+}
+.happy-new-year-footer .right-size-location .icon img {
+  width: 16.08px;
+  cursor: pointer;
+}
+.happy-new-year-footer .right-size-location p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16.08px;
+  font-weight: 500;
+  line-height: 26.8px;
+  margin-left: 10px;
+}
+.happy-new-year-footer .website-social-address {
+  width: 884.4px;
+  height: 107.2px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 33.5px 0;
+}
+.happy-new-year-footer .website-social-address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.happy-new-year-footer .website-social-address img {
+  width: 42.88px;
+}
+.happy-new-year-footer .footer-copywright-symbol {
+  max-width: 884.4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.happy-new-year-footer .footer-copywright-symbol p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16.08px;
+  font-weight: 500;
+  line-height: 19.43px;
+}
+.happy-new-year-footer .footer-copywright-symbol a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16.08px;
+  font-weight: 500;
+  line-height: 19.43px;
+}
