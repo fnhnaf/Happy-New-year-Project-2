@@ -540,6 +540,7 @@ footer {
   font-weight: 500;
   line-height: 26.8px;
   margin-left: 10px;
+  cursor: pointer;
 }
 .happy-new-year-footer .website-social-address {
   width: 884.4px;
@@ -556,6 +557,7 @@ footer {
 }
 .happy-new-year-footer .website-social-address img {
   width: 42.88px;
+  cursor: pointer;
 }
 .happy-new-year-footer .footer-copywright-symbol {
   max-width: 884.4px;
@@ -569,6 +571,7 @@ footer {
   font-size: 16.08px;
   font-weight: 500;
   line-height: 19.43px;
+  cursor: pointer;
 }
 .happy-new-year-footer .footer-copywright-symbol a {
   text-decoration: none;
