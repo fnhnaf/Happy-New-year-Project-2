@@ -284,33 +284,36 @@ happy-new-year-offer-Styles
 Holidays Sale  Section*/
 .holidays-sale-container {
   max-width: 715.56px;
+  height: 660.66px;
+  border: 2px solid red;
+  margin: 80.4px auto;
+}
+.holidays-child-top-container {
+  max-width: 715.56px;
   height: 174.2px;
-  margin: 0 auto;
-  margin-top: 80.4px;
-  margin-bottom: 46.23px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.holidays-sub-title {
+.holidays-child-top-container .holidays-sub-title {
   color: rgb(7, 2, 17);
   font-family: Inter;
   font-size: 16.08px;
   font-weight: 500;
   line-height: 19.43px;
 }
-.holidays-title {
+.holidays-child-top-container .holidays-title {
   font-family: Merriweather;
   font-size: 48.24px;
   font-weight: 900;
   line-height: 60.97px;
   color: #070211;
 }
-.holidays-title span {
+.holidays-child-top-container .holidays-title span {
   color: #ff0000;
 }
-.holidays-description {
+.holidays-child-top-container .holidays-description {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 13.4px;
