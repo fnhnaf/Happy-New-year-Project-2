@@ -498,15 +498,20 @@ Footer Styles
 */
 footer {
   max-width: 100%;
-  height: 408.03px;
+  /* height: 408.03px; */
   background: #070211;
   margin: 0 auto;
+  padding-top: 0.1px;
 }
 .happy-new-year-footer {
   width: 884.4px;
-  height: 409px;
-  border: 1px solid rgb(0, 0, 0);
+  /* height: 409px; */
+  /* border: 1px solid rgb(253, 0, 0); */
   margin: 0 auto;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  /* display: flow-root;
+  padding-top: 80px; */
 }
 .happy-new-year-footer .address {
   width: 793.95px;
